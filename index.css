@@ -42,16 +42,22 @@ footer {
 /* End Landing Page CSS */
 
 /* Start Entry Page CSS */
+.homeNav {
+    display: flex;
+    justify-content: center;    
+}
+
 .entryMain {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .motivQuote {
     border: 3px solid black;
     margin: 15px;
     margin-bottom: 0px;
+    width: 400px;
 }
 
 .motivQuote h2 {
@@ -66,9 +72,16 @@ footer {
 
 textarea {
     height: 250px;
-    width: 450px;
+    width: 400px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.entryButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 .buttons {
@@ -117,9 +130,9 @@ textarea {
     display: flex;
     justify-content: center;
 } 
-
 /* End Login Page CSS */
 
+/* Start Registration Page CSS */
 .register {
     border: 3px solid black;
     width: 250px;
@@ -127,3 +140,4 @@ textarea {
     margin-top: 50px;
     margin-bottom: 100px;
 }
+/* End Registration Page CSS */
