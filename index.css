@@ -14,7 +14,7 @@ footer {
 }
 
 /* Wireframe ONLY */
-.links {
+.wireframeLinks {
     display: flex;
     flex-direction: column;
     justify-content: center;
