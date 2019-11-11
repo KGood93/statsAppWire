@@ -13,6 +13,14 @@ footer {
     text-align: center;
 }
 
+/* Wireframe ONLY */
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Wireframe ONLY */
+
 /* Start Landing Page CSS */
 .entryEven {
     margin-right: 15px;
