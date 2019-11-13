@@ -50,6 +50,17 @@ footer {
 /* End Landing Page CSS */
 
 /* Start Entry Page CSS */
+.mainHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;/* vertical alignment */
+}
+
+.log {
+    margin-left: 160px;
+    margin-right: 20px;
+}
+
 .homeNav {
     display: flex;
     justify-content: center;    
