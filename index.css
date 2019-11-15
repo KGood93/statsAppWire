@@ -18,6 +18,16 @@ footer {
 /* Wireframe ONLY */
 
 /* Start Landing Page CSS */
+.entryButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addEntry {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
 .entryEven {
     margin-right: 15px;
     margin-left: 15px;
