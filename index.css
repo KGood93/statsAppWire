@@ -60,8 +60,63 @@ footer {
 }
 /* End New Meetup Page CSS */
 
-/* Start Launch Page CSS */
-/* End Launch Page CSS */
+/* Start Door Count Page CSS */
+.doorCount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doorButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addButton {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 3px solid black;
+    font-size: 60px;
+}
+/* End Door Count Page CSS */
+
+/* Start Intro Page CSS */
+.attend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.smallAddButton {
+    width: 50px;
+    height: 50px;
+}
+
+.question, .students {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.project, .school {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+    border: 2px solid black;
+}
+
+
+/* End Intro Page CSS */
+
 /* Start Launch Page CSS */
 /* End Launch Page CSS */
 
